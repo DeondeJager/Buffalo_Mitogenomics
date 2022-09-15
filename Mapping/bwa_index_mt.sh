@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -l select=1:ncpus=24:nodetype=haswell_reg
-#PBS -P CBBI1030
+#PBS -P CBBIXXXX
 #PBS -q smp
 #PBS -l walltime=4:00:00
 #PBS -o /mnt/lustre/users/djager/mtgenomesNOVOplasty/Mitogenomes_to_remap/bwa_index_mt.out
