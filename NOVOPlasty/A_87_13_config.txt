@@ -7,9 +7,9 @@ K-mer                 = 33
 Max memory            = 120
 Extended log          = 1
 Save assembled reads  = no
-Seed Input            = /mnt/lustre/users/djager/mtgenomesNOVOplasty/Sc_mtGenome_3486.fasta
+Seed Input            = /mnt/lustre/users/username/mtgenomesNOVOplasty/Sc_mtGenome_3486.fasta
 Extend seed directly  = no
-Reference sequence    = /mnt/lustre/users/djager/mtgenomesNOVOplasty/Sc_mtGenome_3486.fasta
+Reference sequence    = /mnt/lustre/users/username/mtgenomesNOVOplasty/Sc_mtGenome_3486.fasta
 Variance detection    = 
 Chloroplast sequence  = 
 
@@ -20,8 +20,8 @@ Insert size           = 350
 Platform              = illumina
 Single/Paired         = PE
 Combined reads        = 
-Forward reads         = /mnt/lustre/users/djager/buf_clean/read_files/A_87_13_DSW37615_HCT32ALXX_L7_clean_1P.fq
-Reverse reads         = /mnt/lustre/users/djager/buf_clean/read_files/A_87_13_DSW37615_HCT32ALXX_L7_clean_2P.fq
+Forward reads         = /mnt/lustre/users/username/buf_clean/read_files/A_87_13_DSW37615_HCT32ALXX_L7_clean_1P.fq
+Reverse reads         = /mnt/lustre/users/username/buf_clean/read_files/A_87_13_DSW37615_HCT32ALXX_L7_clean_2P.fq
 
 Heteroplasmy:
 -----------------------
