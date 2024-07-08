@@ -1,10 +1,10 @@
 #!/bin/bash
 #PBS -l select=1:ncpus=24:nodetype=haswell_reg
-#PBS -P CBBI1030
+#PBS -P GROUPID
 #PBS -q smp
 #PBS -l walltime=1:00:00
-#PBS -o /mnt/lustre/users/djager/mtgenomesNOVOplasty/Mitogenomes_to_remap/A_243_14/mapping.out
-#PBS -e /mnt/lustre/users/djager/mtgenomesNOVOplasty/Mitogenomes_to_remap/A_243_14/mapping.err
+#PBS -o /mnt/lustre/users/username/mtgenomesNOVOplasty/Mitogenomes_to_remap/A_243_14/mapping.out
+#PBS -e /mnt/lustre/users/username/mtgenomesNOVOplasty/Mitogenomes_to_remap/A_243_14/mapping.err
 #PBS -m abe
 #PBS -N A_243_14_mitomapping
 #PBS -M dejager4@gmail.com
@@ -15,7 +15,7 @@ healthcheck -v || exit 1
 module del chpc/healthcheck/0.2
 
 # Navigate to directory
-cd /mnt/lustre/users/djager/mtgenomesNOVOplasty/Mitogenomes_to_remap/A_243_14
+cd /mnt/lustre/users/username/mtgenomesNOVOplasty/Mitogenomes_to_remap/A_243_14
 
 # Load required modules
 module add chpc/BIOMODULES
@@ -23,8 +23,8 @@ module add bwa/0.7.17
 module add samtools/1.9
 
 # Set up environment variables
-REF=/mnt/lustre/users/djager/mtgenomesNOVOplasty/Mitogenomes_to_remap
-READS=/mnt/lustre/users/djager/buf_clean/read_files
+REF=/mnt/lustre/users/username/mtgenomesNOVOplasty/Mitogenomes_to_remap
+READS=/mnt/lustre/users/username/buf_clean/read_files
 
 # Index mitogenome
 bwa index -p A_243_14 -a is A_243_14.fasta
