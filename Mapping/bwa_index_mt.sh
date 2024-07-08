@@ -1,10 +1,10 @@
 #!/bin/bash
 #PBS -l select=1:ncpus=24:nodetype=haswell_reg
-#PBS -P CBBIXXXX
+#PBS -P GROUPID
 #PBS -q smp
 #PBS -l walltime=4:00:00
-#PBS -o /mnt/lustre/users/djager/mtgenomesNOVOplasty/Mitogenomes_to_remap/bwa_index_mt.out
-#PBS -e /mnt/lustre/users/djager/mtgenomesNOVOplasty/Mitogenomes_to_remap/bwa_index_mt.err
+#PBS -o /mnt/lustre/users/username/mtgenomesNOVOplasty/Mitogenomes_to_remap/bwa_index_mt.out
+#PBS -e /mnt/lustre/users/username/mtgenomesNOVOplasty/Mitogenomes_to_remap/bwa_index_mt.err
 #PBS -m abe
 #PBS -N bwa_index_mt
 #PBS -M dejager4@gmail.com
@@ -12,7 +12,7 @@
 module add chpc/BIOMODULES
 module add bwa/0.7.17
 
-cd /mnt/lustre/users/djager/mtgenomesNOVOplasty/Mitogenomes_to_remap/A_268_14
+cd /mnt/lustre/users/username/mtgenomesNOVOplasty/Mitogenomes_to_remap/A_268_14
 bwa index -p A_268_14 -a is A_268_14.fasta
 
 cd ../B98_161
