@@ -1,8 +1,5 @@
 # Buffalo Mitogenomics
-Scripts and config files associated with the manuscript:  
+Scripts and config files associated with the manuscript, please cite if you use anything from this repository in your work:  
 
 **A highly divergent mitochondrial genome in extant Cape buffalo from Addo Elephant National Park, South Africa**  
-Deon de Jager, Marlo Moller, Eileen G Hoal, Paul van Helden, Brigitte Glanzmann, Cindy K Harper, Paulette Bloomer  
-*bioRxiv* 2023.01.14.524049; doi: https://doi.org/10.1101/2023.01.14.524049
-
-Now accepted in Ecology & Evolution!
+de Jager, D., Möller, M., Hoal, E., van Helden, P., Glanzmann, B., Harper, C., & Bloomer, P. (2025). A Highly Divergent Mitochondrial Genome in Extant Cape Buffalo From Addo Elephant National Park, South Africa. _Ecology and Evolution, 15_(1), e70640. https://doi.org/https://doi.org/10.1002/ece3.70640
